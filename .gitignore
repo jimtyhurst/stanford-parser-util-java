@@ -1,0 +1,8 @@
+bin
+classes
+lib
+*.jar
+*.gz
+
+# OS-generated files
+.DS_Store

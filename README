@@ -1,0 +1,21 @@
+# stanford-parser-util-java
+
+Java utility classes to simplify use of the Stanford Parser for a specific configuration for parsing English sentences.
+
+My goal is to provide access to a parser that can handle simple English sentences, so that the surface structure can be used to generate a logical form that can be interpreted in a model-theory semantics. See http://github.com/jimtyhurst/generalized-quantifiers for the beginnings of such a semantic analyzer written in Clojure.
+
+## Usage
+
+See the unit tests in LexicalizedParserTest for examples.
+
+## Dependencies
+
+Available from http://nlp.stanford.edu/software/lex-parser.shtml:
+lib/stanford-parser-2010-11-30.jar
+resources/englishPCFG.ser.gz
+
+## License
+
+Copyright (C) 2011 Jim Tyhurst
+
+Distributed under the Eclipse Public License.
