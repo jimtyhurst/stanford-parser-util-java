@@ -6,7 +6,8 @@ My goal is to provide access to a parser that can handle simple English sentence
 
 ## Usage
 
-See the unit tests in LexicalizedParserTest for examples.
+See the unit tests in LexicalizedParserTest for examples. For example,
+Tree tree = getParserModule().buildParser().getBestParse("every male student read some book");
 
 ## Dependencies
 

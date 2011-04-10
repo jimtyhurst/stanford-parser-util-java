@@ -8,6 +8,10 @@ import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TreeFunctions;
 import edu.stanford.nlp.trees.TypedDependency;
 
+/**
+ * TreeUtil is a facade for handling Tree objects, using default
+ * configuration values.
+ */
 public class TreeUtil {
 
 	private GrammaticalStructureFactory grammaticalStructureFactory;

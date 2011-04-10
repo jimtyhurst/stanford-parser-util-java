@@ -1,15 +1,13 @@
 package com.tyhurst.stanfordparser.util;
 
-import edu.stanford.nlp.ling.Word;
-import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
-import edu.stanford.nlp.process.Tokenizer;
+/**
+ * Builds utility objects for accessing the Stanford Parser with default configuration values.
+ */
 
 public interface ParserModule {
 	
-	LexicalizedParser buildParser();
+	SimpleParser buildParser();
 	
-	Tokenizer<Word> buildTokenizer(String sentence);
-
 	TreeUtil buildTreeUtil();
 	
 }
